@@ -1,50 +1,43 @@
 .scrollup {
-    background-color: var(--title-color);
-    position: fixed;
-    right: 2.5rem; bottom: -20%;
-    padding: 0.3rem 0.5rem;
-    border-radius: 0.4rem;
-    opacity: 0.8;
-    z-index: var(--z-tooltip);
-    transition: .4s;
-}
-
-.scrollup_icon {
-    color: var(--container-color);
-    font-size: 1rem;
+  position: fixed;
+  right: 1.25rem;
+  bottom: -20%;
+  background: var(--color-primary);
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  z-index: var(--z-tooltip);
+  transition: bottom var(--transition), background-color var(--transition);
+  cursor: pointer;
 }
 
 .scrollup:hover {
-    background-color: var(--title-color-dark);
+  background: var(--color-accent);
 }
 
-/*============== BREAKPOINTS =============*/
+.scrollup:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.scrollup_icon {
+  font-size: 1.25rem;
+}
 
 .show-scroll {
-    bottom: 3rem;
+  bottom: 1.5rem;
 }
 
-/*========== LARGE DEVICES ==========*/
-@media screen and (max-width: 992px) {
-    .scrollup {
-        right: 1.5rem;
-        padding: 0.25rem 0.4rem;
-    }
-    .scrollup_icon {
-        font-size: 1rem;
-    }
-}
-
-/*========== MEDIUM DEVICES ==========*/
 @media screen and (max-width: 768px) {
-    .show-scroll {
-        bottom: 4rem;
-    }
-}
+  .scrollup {
+    right: 1rem;
+  }
 
-/*========== SMALL DEVICES ==========*/
-@media screen and (max-width: 350px) {
-    .show-scroll {
-        right: 1rem;
-    }
+  .show-scroll {
+    bottom: 1.5rem;
+  }
 }

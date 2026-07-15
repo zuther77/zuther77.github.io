@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills section mockups · Shreeraj Pawar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #fafafa;
+        --text: #09090b;
+        --muted: #52525b;
+        --border: #e4e4e7;
+        --accent: #2563eb;
+        --surface: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Poppins, sans-serif;
+        background:
+          radial-gradient(ellipse 70% 40% at 10% -10%, rgba(37, 99, 235, 0.1), transparent 55%),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+        padding: 2.5rem 1.25rem 4rem;
+      }
+
+      .page {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      .top {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .label {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+      }
+
+      h1 {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        letter-spacing: -0.03em;
+        margin-bottom: 0.5rem;
+      }
+
+      .intro {
+        color: var(--muted);
+        max-width: 36rem;
+      }
+
+      .back {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 0.65rem 1.15rem;
+        border: 1px solid var(--border);
+        border-radius: 0.5rem;
+        color: var(--text);
+        text-decoration: none;
+        font-size: 0.875rem;
+        font-weight: 500;
+        background: rgba(255, 255, 255, 0.8);
+      }
+
+      .back:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .toc {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .toc a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 0.4rem 0.85rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.8125rem;
+        font-weight: 500;
+      }
+
+      .toc a:hover {
+        color: var(--accent);
+        border-color: var(--accent);
+      }
+
+      .mockup {
+        margin-bottom: 3rem;
+        scroll-margin-top: 1.5rem;
+      }
+
+      .mockup-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.5rem 1rem;
+        margin-bottom: 0.85rem;
+      }
+
+      .mockup-num {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      .mockup-title {
+        font-size: 1.25rem;
+        letter-spacing: -0.02em;
+      }
+
+      .mockup-desc {
+        width: 100%;
+        color: var(--muted);
+        font-size: 0.9rem;
+        max-width: 42rem;
+      }
+
+      .frame {
+        margin-top: 1rem;
+        border: 1px solid var(--border);
+        border-radius: 1rem;
+        overflow: hidden;
+        background: var(--surface);
+        box-shadow: 0 12px 40px rgba(9, 9, 11, 0.06);
+      }
+
+      .frame img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="top">
+        <div>
+          <span class="label">Design exploration</span>
+          <h1>Skills section mockups</h1>
+          <p class="intro">
+            Five alternate layouts for the Skills section. Pick a direction and we can implement it on the main portfolio.
+          </p>
+        </div>
+        <a class="back" href="/">← Back to portfolio</a>
+      </div>
+
+      <nav class="toc" aria-label="Mockup list">
+        <a href="#mockup-1">1 · Tag cloud</a>
+        <a href="#mockup-2">2 · Icon grid</a>
+        <a href="#mockup-3">3 · Split columns</a>
+        <a href="#mockup-4">4 · Core + supporting</a>
+        <a href="#mockup-5">5 · Bento map</a>
+      </nav>
+
+      <article class="mockup" id="mockup-1">
+        <div class="mockup-head">
+          <span class="mockup-num">Option 01</span>
+          <h2 class="mockup-title">Tag cloud / chips</h2>
+          <p class="mockup-desc">Skills as wrapped pills grouped by Frontend, Backend, and Cloud. Fast to scan and easy to update.</p>
+        </div>
+        <div class="frame">
+          <img src="/skills-mockups/skills-mockup-01-tag-cloud.png" alt="Skills section mockup: tag cloud of skill chips" />
+        </div>
+      </article>
+
+      <article class="mockup" id="mockup-2">
+        <div class="mockup-head">
+          <span class="mockup-num">Option 02</span>
+          <h2 class="mockup-title">Icon grid</h2>
+          <p class="mockup-desc">Uniform cells with a simple icon and skill name. More visual and inventory-like.</p>
+        </div>
+        <div class="frame">
+          <img src="/skills-mockups/skills-mockup-02-icon-grid.png" alt="Skills section mockup: icon grid of tools" />
+        </div>
+      </article>
+
+      <article class="mockup" id="mockup-3">
+        <div class="mockup-head">
+          <span class="mockup-num">Option 03</span>
+          <h2 class="mockup-title">Editorial split columns</h2>
+          <p class="mockup-desc">Headline on the left, three ruled skill columns on the right. Closest to the current Swiss/minimal feel.</p>
+        </div>
+        <div class="frame">
+          <img src="/skills-mockups/skills-mockup-03-split-columns.png" alt="Skills section mockup: editorial split layout" />
+        </div>
+      </article>
+
+      <article class="mockup" id="mockup-4">
+        <div class="mockup-head">
+          <span class="mockup-num">Option 04</span>
+          <h2 class="mockup-title">Core stack + supporting list</h2>
+          <p class="mockup-desc">A short row of primary skills, then a compact supporting list underneath for hierarchy.</p>
+        </div>
+        <div class="frame">
+          <img src="/skills-mockups/skills-mockup-04-compact-bars.png" alt="Skills section mockup: core stack with supporting skills" />
+        </div>
+      </article>
+
+      <article class="mockup" id="mockup-5">
+        <div class="mockup-head">
+          <span class="mockup-num">Option 05</span>
+          <h2 class="mockup-title">Bento / mosaic map</h2>
+          <p class="mockup-desc">Asymmetric tiles by domain — Cloud, Backend, Frontend, Data, Observability. Strongest visual identity.</p>
+        </div>
+        <div class="frame">
+          <img src="/skills-mockups/skills-mockup-05-bento-map.png" alt="Skills section mockup: bento mosaic skill map" />
+        </div>
+      </article>
+    </div>
+  </body>
+</html>

@@ -1,99 +1,86 @@
-.about_container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
-    align-items: center;
-    /* border: 1px solid red; */
+.about .section_label,
+.about .section_title,
+.about .section_subtitle {
+  display: block;
+  text-align: center;
 }
 
+.about .section_label {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
+.about_container {
+  grid-template-columns: minmax(240px, 360px) 1fr;
+  column-gap: 4rem;
+  align-items: center;
+}
 
 .about_img {
-    justify-self: center;
-    width: 350px;
-    border-radius: 1.5rem;
+  width: 100%;
+  max-width: 360px;
+  justify-self: center;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
 }
 
 .about_info {
-    display: grid;
-    /* flex-direction: row; */
-    grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2);
-    /* border: 1px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: var(--mb-2);
 }
 
 .about_box {
-    background-color: #fff;
-    /* background-color: #171717; */
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.75rem;
-    text-align: center;
-    padding: 1rem 1.25rem;
-}
-
-.about_icons {
-    color: #171717;
-    font-size: 1.5rem;
-    margin-bottom: var(--mb-0-5);
+  padding: 0.25rem 0;
+  border-top: 2px solid var(--color-accent);
 }
 
 .about_title {
-    font-size: var(--small-font-size);
-    font-weight: var(--font-medium);
-    color: #171717 !important;
+  font-size: var(--tiny-font-size);
+  font-weight: var(--font-medium);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 0.35rem;
 }
 
 .about_subtitle {
-    font-size: var(--tiny-font-size);
-    color: #171717 !important;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--color-text);
 }
 
 .about_description {
-    margin-bottom: var(--mb-2-5);
-    padding: 0 4rem 0 1;
+  margin-bottom: var(--mb-2-5);
+  color: var(--color-text-muted);
+  max-width: 40rem;
 }
 
-/*============== BREAKPOINTS =============*/
-
-/*========== LARGE DEVICES ==========*/
 @media screen and (max-width: 992px) {
-    .about_container {
-        grid-template-columns: 1fr;
-        row-gap: 2.5rem;
-    }
-    .about_img {
-        width: 220px;
-    }
-    .about_box {
-        padding: 0.75rem 0.5rem;
-    }
-    .about_data {
-        text-align: center;
-    }
-    .about_info {
-        justify-content: center;
-    }
-    .about_description {
-        margin-bottom: 2rem;
-        padding: 0 5rem;
-    }
+  .about_container {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+
+  .about_img {
+    max-width: 260px;
+  }
+
+  .about_data {
+    text-align: left;
+  }
+
+  .about_description {
+    max-width: none;
+  }
 }
 
-/*========== MEDIUM DEVICES ==========*/
 @media screen and (max-width: 576px) {
-    .about_info {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .about_description {
-        padding: 0;
-    }
-}
-
-/*========== SMALL DEVICES ==========*/
-@media screen and (max-width: 350px) {
-    .about_info {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .about_info {
+    grid-template-columns: 1fr;
+  }
 }

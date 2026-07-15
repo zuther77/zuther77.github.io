@@ -1,64 +1,59 @@
 .footer {
-    background-color: var(--container-color);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.55);
 }
 
 .footer_container {
-    padding: 2rem 0 6rem;
+  padding: 3rem 1.5rem 2.5rem;
 }
 
-.footer_title, .footer_links {
-    color: var(--title-color);
+.footer_top {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .footer_title {
-    text-align: center;
-    margin-bottom: var(--mb-2);
+  font-size: var(--h2-font-size);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.35rem;
 }
 
-.footer_links:hover {
-    color: var(--title-color-dark);
+.footer_text {
+  color: var(--color-text-muted);
+  font-size: var(--small-font-size);
 }
 
 .footer_list {
-    display: flex;
-    justify-content: center;
-    column-gap: 1.5rem;
-    margin-bottom: var(--mb-2);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.footer_social {
-    display: flex;
-    justify-content: center;
-    column-gap: 1.25rem;
+.footer_links {
+  color: var(--color-text-muted);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  transition: color var(--transition);
+  cursor: pointer;
 }
-.footer_social-links {
-    background-color: var(--title-color);
-    color: var(--container-color);
-    display: inline-flex;
-    font-size: 1rem;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
+
+.footer_links:hover {
+  color: var(--color-accent);
 }
-.footer_social-links:hover {
-    background-color: var(--title-color-dark);
+
+.footer_links:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
 }
 
 .footer_copy {
-    display: block;
-    color: var(--title-color);
-    font-size: var(--smaller-font-size);
-    text-align: center;
-    margin-top: 4.5rem;
+  display: block;
+  color: var(--color-text-muted);
+  font-size: var(--smaller-font-size);
+  text-align: center;
 }
-
-/*============== BREAKPOINTS =============*/
-
-/*========== LARGE DEVICES ==========*/
-@media screen and (max-width: 992px) {
-    .footer_social-links {
-        font-size: 1rem;
-        padding: 0.25rem;
-        border-radius: 0.25rem;
-    }
-  }

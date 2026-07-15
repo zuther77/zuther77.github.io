@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolioV2/static/css/main.428207b6.css",
+    "main.js": "/portfolioV2/static/js/main.8eb35bda.js",
+    "static/media/home_self.jpg": "/portfolioV2/static/media/home_self.066996fc8af19b2f8162.jpg",
+    "static/media/grafana.png": "/portfolioV2/static/media/grafana.a13ed247142eab4e5e92.png",
+    "static/media/kubernetes.png": "/portfolioV2/static/media/kubernetes.b3428ce595d4930f10a4.png",
+    "static/media/react-native.png": "/portfolioV2/static/media/react-native.bebb41d5690f71ee103d.png",
+    "static/media/github-actions.png": "/portfolioV2/static/media/github-actions.327ee5a169124dfb45f1.png",
+    "static/media/postgresql.png": "/portfolioV2/static/media/postgresql.03bbaf69612ee39108dd.png",
+    "static/media/react.png": "/portfolioV2/static/media/react.dff42d25f15453eff8e3.png",
+    "static/media/aws.png": "/portfolioV2/static/media/aws.82b56729e0b9b870d0f9.png",
+    "static/media/linux.png": "/portfolioV2/static/media/linux.1af439c826f1f0d45300.png",
+    "static/media/docker.png": "/portfolioV2/static/media/docker.ad7f8ef7ee547ace4374.png",
+    "static/media/redis.png": "/portfolioV2/static/media/redis.0b6f998f2a7ed10f9a17.png",
+    "static/media/github.png": "/portfolioV2/static/media/github.9e17f6acb69c956528c8.png",
+    "static/media/python.png": "/portfolioV2/static/media/python.fbc370a719c740590939.png",
+    "static/media/git.png": "/portfolioV2/static/media/git.7b751df0c2b80cc58405.png",
+    "static/media/javascript.png": "/portfolioV2/static/media/javascript.38459be8b0bd0223bd50.png",
+    "static/media/work-5.jpg": "/portfolioV2/static/media/work-5.9dce2907fd9ce82b775f.jpg",
+    "static/media/work-3.jpg": "/portfolioV2/static/media/work-3.5d8397569a35b7294df1.jpg",
+    "static/media/go.png": "/portfolioV2/static/media/go.31c81a1251ea0457e804.png",
+    "static/media/proj3.jpg": "/portfolioV2/static/media/proj3.066cc81d37744474e9ef.jpg",
+    "static/media/work-4.jpg": "/portfolioV2/static/media/work-4.e7e38eaa3480119e49c1.jpg",
+    "static/media/image.jpg": "/portfolioV2/static/media/image.e61c126c08a56640349e.jpg",
+    "static/media/expo.png": "/portfolioV2/static/media/expo.c078e76af4e59b853292.png",
+    "static/media/proj1.jpg": "/portfolioV2/static/media/proj1.12c8dc799f6a9c20f977.jpg",
+    "static/media/Shreeraj_Pawar_Resume.pdf": "/portfolioV2/static/media/Shreeraj_Pawar_Resume.207f7dd813e4c74d8e26.pdf",
+    "index.html": "/portfolioV2/index.html",
+    "main.428207b6.css.map": "/portfolioV2/static/css/main.428207b6.css.map",
+    "main.8eb35bda.js.map": "/portfolioV2/static/js/main.8eb35bda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.428207b6.css",
+    "static/js/main.8eb35bda.js"
+  ]
+}
