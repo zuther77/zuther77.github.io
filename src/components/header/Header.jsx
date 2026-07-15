@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? 'scroll-header' : ''}`}>
       <nav className="nav container" aria-label="Primary">
-        <a href="#home" className="nav_logo"></a>
+        <a href="#home" className="nav_logo">Shreeraj</a>
 
         <div className={toggle ? 'nav_menu show-menu' : 'nav_menu'}>
           <ul className="nav_list">
