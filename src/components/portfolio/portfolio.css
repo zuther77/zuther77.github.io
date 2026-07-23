@@ -58,8 +58,8 @@
 
 .work_img {
   width: 100%;
-  aspect-ratio: 16 / 11;
-  object-fit: cover;
+  aspect-ratio: 21 / 9;
+  object-fit: fit;
   transition: transform 280ms ease;
 }
 

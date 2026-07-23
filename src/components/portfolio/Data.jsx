@@ -4,10 +4,20 @@ import Project3 from "../../assets/work-5.jpg";
 import Project4 from "../../assets/proj3.jpg";
 import Project5 from "../../assets/work-3.jpg";
 import Project6 from "../../assets/work-4.jpg";
+import Project7 from "../../assets/work-1.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: Project7,
+    title: 'Distributed Ledger',
+    category: 'Distributed systems',
+    description:
+      'High-throughput order matching engine in Go with an ACID PostgreSQL ledger and Redis Streams for durable handoff between microservices, runnable via Docker Compose or Kubernetes.',
+    link: 'https://github.com/zuther77/DistributedLedger',
+  },
+  {
+    id: 2,
     image: Project2,
     title: 'BroCode',
     category: 'Cloud',
@@ -16,7 +26,7 @@ export const projectsData = [
     link: 'https://github.com/zuther77/Brocode',
   },
   {
-    id: 2,
+    id: 3,
     image: Project1,
     title: 'KitchenKontrol',
     category: 'Backend',
@@ -25,7 +35,7 @@ export const projectsData = [
     link: 'https://github.com/zuther77/KitchenKontrol',
   },
   {
-    id: 3,
+    id: 4,
     image: Project4,
     title: 'Memories',
     category: 'Serverless',
@@ -34,7 +44,7 @@ export const projectsData = [
     link: 'https://github.com/zuther77/Smart-Photo-Album',
   },
   {
-    id: 4,
+    id: 5,
     image: Project3,
     title: 'Payroll Management',
     category: 'Full stack',
@@ -43,7 +53,7 @@ export const projectsData = [
     link: 'https://github.com/zuther77/Payroll-Management-System',
   },
   {
-    id: 5,
+    id: 6,
     image: Project5,
     title: 'Restaurant Chatbot',
     category: 'AI',
@@ -52,7 +62,7 @@ export const projectsData = [
     link: 'https://github.com/zuther77/Restaurant-Recommendation-Chatbot',
   },
   {
-    id: 6,
+    id: 7,
     image: Project6,
     title: 'DANNC Audio',
     category: 'ML',
