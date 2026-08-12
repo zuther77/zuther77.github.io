@@ -17,13 +17,6 @@ const links = [
     external: true,
   },
   {
-    label: 'Phone',
-    value: '+1 (551) 318-7508',
-    href: 'tel:+15513187508',
-    icon: 'uil-phone',
-    external: false,
-  },
-  {
     label: 'GitHub',
     value: 'github.com/zuther77',
     href: 'https://github.com/zuther77',
