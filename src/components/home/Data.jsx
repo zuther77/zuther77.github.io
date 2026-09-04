@@ -4,11 +4,10 @@ import Resume from '../../assets/Shreeraj_Pawar_Resume.pdf'
 const Data = () => {
   return (
     <div className="home_data">
-      <p className="home_kicker">Software Engineer · New York, NY</p>
+      <p className="home_kicker">Software Engineer</p>
       <h1 className="home_title">Shreeraj Pawar</h1>
       <p className="home_description">
-        I build reliable backend systems, cloud pipelines, and product-facing tools —
-        from real-time IoT dashboards to conversational AI workflows on AWS.
+        I like to build and break things. In my free time I am exploring open source projects or writing code that never reaches my github. 
       </p>
 
       <div className="home_actions">

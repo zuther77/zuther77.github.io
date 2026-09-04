@@ -18,7 +18,7 @@ const experience = [
   {
     title: 'Humatics',
     subtitle: 'Software Engineer · Boston, MA',
-    date: 'Mar 2024 – Present',
+    date: 'Mar 2024 – June 2026',
     points: [
       'Owned a real-time IoT monitoring dashboard scaling to 100+ concurrent devices, cutting UI response from 80ms to 16ms.',
       'Built GPT-powered operational chat on AWS Batch/Athena and sensor ETL pipelines with Parquet, S3 versioning, and dashboards.',
